@@ -11,6 +11,6 @@ main.o: sum.h main.cpp
 
 sum.o: sum.h sum.cpp
 
-cleam:
+clean:
 	rm -f sum_test
 	rm -f *.o
